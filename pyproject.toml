@@ -1,0 +1,22 @@
+[project]
+name = "empl-manager"
+version = "0.1.0"
+description = "Companies / Employees / Projects manager — FastAPI + React test task"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "alembic>=1.20.0",
+    "bcrypt>=5.0.0",
+    "email-validator>=2.3.0",
+    "faker>=40.39.0",
+    "fastapi>=0.141.1",
+    "httpx>=0.28.1",
+    "psycopg>=3.3.6",
+    "pwdlib>=0.3.1",
+    "pydantic-settings>=2.15.0",
+    "pyjwt>=2.14.0",
+    "pytest>=9.1.1",
+    "python-multipart>=0.0.32",
+    "sqlalchemy>=2.0.54",
+    "uvicorn>=0.53.0",
+]
